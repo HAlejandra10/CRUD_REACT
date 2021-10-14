@@ -6,23 +6,23 @@ import * as React from 'react';
 
 const user = [
     {
-        name: 'Heidy',
+        name: 'Heidy Alejandra',
         lastname: 'Primo',
-        email: 'hp@outlookl.com',
+        email: 'hprimo10@outlook.com',
         tel: '300 456 7896',
         gender: 'woman'
     },
     {
         name: 'Juan carlos',
         lastname: 'Ramirez',
-        email: 'juank2@gmail.com',
+        email: 'juanca2@gmail.com',
         tel: '310 678 5432',
         gender: 'man'
     },
     {
         name: 'Miguel',
         lastname: 'Velez',
-        email: 'miguel@hotmail.com',
+        email: 'miguelv@hotmail.com',
         tel: '345 678 1234',
         gender: 'man'
     },
@@ -42,7 +42,7 @@ const Users = () => {
                        <label>First name:</label><br />
                         <input type="text" /> <br />
                     </div> 
-                    <div> 
+                    <div> <br/>
                         <label for="lname">Last name:</label><br />
                        <input type="text" /><br /> <br />
                     </div>
@@ -55,7 +55,7 @@ const Users = () => {
                       <input type="tel" /> <br />
                     </div>
                     <div>
-                     <FormControl component ="fieldset">
+                     <FormControl component ="fieldset"><br/>
                       <FormLabel component="legend">Gender: </FormLabel>
                       <RadioGroup
                        aria-label="gender"
@@ -68,7 +68,7 @@ const Users = () => {
                      </RadioGroup>
                      </FormControl>
                      <br/>
-                      <FormControl component="fieldset">
+                      <FormControl component="fieldset"><br/>
                       <FormLabel component="legend">Estate:</FormLabel>
                        <RadioGroup row aria-label="gender" name="row-radio-buttons-group">
                         <FormControlLabel value="male" control={<Radio />} label="Active" />
