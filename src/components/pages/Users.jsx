@@ -4,7 +4,7 @@ import * as React from 'react';
 
 
 
-const user = [
+const USERS_TEST = [
     {
         name: 'Heidy Alejandra',
         lastname: 'Primo',
